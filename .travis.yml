@@ -17,6 +17,6 @@ before_install:
 
 
 install:
-  - echo "$DOCKER_PASSWORD" | docker login -username "$DOCKER_USERNAME" --password-stdin https://index.docker.io/v1/
+  - echo "$DOCKER_PASSWORD" | docker login -username "$DOCKER_USERNAME" --password-stdin index.docker.io/v1/
   - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
   - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml push
