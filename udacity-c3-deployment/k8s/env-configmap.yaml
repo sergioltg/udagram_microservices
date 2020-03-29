@@ -7,7 +7,7 @@ data:
   JWT_SECRET: hello
   POSTGRESS_DB: udacitysergiodev
   POSTGRESS_HOST: udacitysergiodev.cqr94pj8izad.ap-southeast-2.rds.amazonaws.com
-  URL: http://localhost:8100  
+  URL: http://a9526c51e91f34c968307cb63c6ced02-1775400702.ap-southeast-2.elb.amazonaws.com
 metadata:
   name: env-config
   
