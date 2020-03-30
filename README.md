@@ -1,3 +1,17 @@
+docker images
+
+https://hub.docker.com/repository/docker/sergioltg/udacity-frontend
+https://hub.docker.com/repository/docker/sergioltg/udacity-restapi-feed
+https://hub.docker.com/repository/docker/sergioltg/udacity-restapi-user
+https://hub.docker.com/repository/docker/sergioltg/reverseproxy
+
+website address
+http://a9526c51e91f34c968307cb63c6ced02-1775400702.ap-southeast-2.elb.amazonaws.com/
+
+github
+https://github.com/sergioltg/udagram_microservices
+
+
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
